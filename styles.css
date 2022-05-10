@@ -26,7 +26,7 @@ body {
 .header-list li {
     list-style: none;
     margin-right: .2rem;
-    padding: .8rem;
+    padding: .55rem .2rem;
 }
 
 .header a {
@@ -39,7 +39,7 @@ body {
     font-size: 14px;
     font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     background-color: rgb(26, 115, 232);
-    padding: 9px 23px;
+    padding: 7px 23px;
     border-radius: 4px;
     border-style: none;
     font-weight: 500;
@@ -76,35 +76,42 @@ body {
 
 .google-image {
     display: flex;
-    width: 100%;
+    width: auto;
     justify-content: center;
+    margin-bottom: 2vh;
 }
 
 .google-image img {
-    width: 40%;
-    margin: 1rem;
+    width: 272px;
+    height: 92;
+    margin: .8rem;
 }
 
 .google-search {
     display: flex;
     align-items: center;
-    width: auto;
-    border-style: solid;
-    border-color: rgb(182, 182, 182);
+    width: 90%;
+    border: 0.1px solid rgb(182, 182, 182);
     border-radius: 50px;
-    border-width: 1px;
     height: 44px;
-    box-sizing: border-box;
     min-width: 360px;
+    max-width: 584px;
+}
+
+.input {
+    display: flex;
+    flex: 1;
 }
 
 .input input {
+    display: flex;
+    flex: 2;
     border-radius: 4px;
     height: 1.5rem;
     margin: 0 14px;
-    width: 39vw;
-    min-width: 253px;
     border-style: none;
+    font-size: 16px;
+    /* width: max-content; */
 }
 
 .input:focus-visible,
@@ -117,13 +124,17 @@ body {
     display: flex;
     width: .5rem;
     height: .9rem;
-    margin-left: 20px;
+    margin: 0px 10px 0 20px;
 }
 
 .mic {
     display: flex;
     margin-right: 20px;
     height: 1.4rem;
+}
+
+.mic:hover {
+    cursor: pointer;
 }
 
 
@@ -133,7 +144,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1.1rem;
 }
 
 .links {
