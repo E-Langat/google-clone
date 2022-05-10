@@ -82,7 +82,7 @@ body {
 
 .google-image img {
     width: 40%;
-    margin: 3rem;
+    margin: 1rem;
 }
 
 .google-search {
@@ -142,7 +142,7 @@ body {
 
 .google-search-button,
 .google-doodles {
-    margin: 10px;
+    margin: 11px 4px;
 }
 
 .google-search-button button,
@@ -157,6 +157,7 @@ body {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(248, 249, 250);
+    font-size: 14px;
 }
 
 .google-doodles button:hover,
