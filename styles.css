@@ -154,10 +154,12 @@ body {
     font-family: arial, sans-serif;
     height: 36px;
     cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(248, 249, 250);
 }
 
 .google-doodles button:hover,
 .google-search-button button:hover {
-    border: 1px solid;
-    border-color: #dadce0;
+    border: 1px solid #dadce0;
 }
