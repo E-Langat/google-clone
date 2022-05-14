@@ -196,8 +196,14 @@ footer a:hover {
 }
 
 .language a {
+    color: #1a0dab;
     text-decoration: none;
     margin-left: 5px;
+}
+
+.language a:hover {
+    color: #1a0dab;
+    text-decoration: underline;
 }
 
 
